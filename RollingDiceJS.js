@@ -12,4 +12,4 @@ function rollDice() {
     resultElement.innerText += " Total: " + total;
 }
 
-document.querySelectorAll("clickme").addEventListener('click', rollDice());
+document.getElementById("clickme").addEventListener('click', rollDice);
